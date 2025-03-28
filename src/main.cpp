@@ -3,9 +3,9 @@
 
 int main(){
     int a, b;
-    std::cout << "a = " << std::endl;
+    std::cout << "a = ";
     std::cin >> a;
-    std::cout << "b = " << std::endl;
+    std::cout << "b = ";
     std::cin >> b;
     std::cout << "addition: " << add(a, b) << std::endl;
     std::cout << "subtraction: " << subtract(a, b) << std::endl;
